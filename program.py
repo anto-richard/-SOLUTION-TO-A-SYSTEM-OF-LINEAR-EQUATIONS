@@ -21,23 +21,18 @@ End the program
 ## Program:
 ```
 #Program to find the solution for the given linear equations.
-
 #Developed by: Anto Richard.S
-
 #RegisterNumber: 21001221
-
 import numpy as np
-
 A=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
-
 B=np.array([-9,4,-1])
-
 sol=np.linalg.solve(A,B)
-
 print(sol)
 ```
 ## Output:
 ![github logo](numpy.png)
 
+
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
+
